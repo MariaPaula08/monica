@@ -1,0 +1,55 @@
+main{
+    width: 100vw;
+    height: fit-content;
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section h1{
+    font-weight: bold;
+    font-size: 5em;
+    color: rgb(235, 67, 193);
+}
+main section .info{
+    font-size: 1.3em;
+    min-width: 80%;
+    text-align: justify;
+}
+.sect-02 {
+    height: 80vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+    padding-bottom: 3em;
+}
+.sect-02 h1 {
+    font-size: 5em;
+    color: antiquewhite;
+    text-align: center;
+    padding: 0.4em 0;
+}
+.sect-02 .cardContainer {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sect-02 .cardContainer .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0.7em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    gap: 1em;
+}
+
+.sect-02 .cardContainer .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}

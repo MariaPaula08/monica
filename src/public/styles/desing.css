@@ -1,0 +1,16 @@
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 3em;
+    color: rgb(235, 67, 193);
+}
+.sect-02 {
+    height: 80vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+    padding-bottom: 3em;
+}
